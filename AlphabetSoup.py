@@ -5,8 +5,8 @@
 
 def AlphabetSoup(strParam):
 
-  # code goes here
- return "".join(sorted(strParam))
+# code goes here
+  return "".join(sorted(strParam))
 
 # keep this function call here 
 print(AlphabetSoup(input()))
