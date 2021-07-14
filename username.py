@@ -1,17 +1,21 @@
 def minLen(strP):
-  print("minLen")
-  return (len(strP)>3)
+  #print("minLen")
+  return len(strP)>3
+
 def maxLen(strP):
-  print ("maxLen")
-  return (len(strP)<26)
+  #print("maxLen")
+  return len(strP)<26
+
 def FirstCharIsAlpha(strP):
-  print("FirstCharIsAlpha")
-  return (strP[0].isalpha())
+  #print("FirstCharIsAlpha")
+  return strP[0].isalpha()
+
 def LastCharIsNotUnderscore(strP):
-  print("LastCharIsNotUnderscore")
+  #print("LastCharIsNotUnderscore")
   return not strP.endswith("_")
+
 def CheckAlnum(strP):
-  print("CheckAlnum")
+  #print("CheckAlnum")
   # we will remove any underscores.
   strP = strP.replace("_","")
   #then check for alnum
